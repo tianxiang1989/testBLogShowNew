@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">testBLogShowNew</string>
+     <!-- 登陆模块用到的字符串_start-->
+    <string name="login_user">输入4A账号</string>
+    <string name="login_pwd">请输入密码</string>
+    <string name="login_verify">请输入验证码</string>
+    <string name="login_askVerify">4A验证</string>
+    <string name="login_askLogin">登\t\t录</string>
+    <!-- 登陆模块用到的字符串_end-->
+    <string name="showNewFive_text">微经分，为你而改变</string>
+</resources>

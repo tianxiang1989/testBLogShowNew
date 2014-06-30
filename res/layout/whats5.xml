@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_bg_original"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+		<!-- 中间的火箭 -->
+        <ImageView
+            android:id="@+id/imageMiddle"
+            android:layout_width="71dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="startbutton"
+            android:src="@drawable/huojian_nofire"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <!-- 下方的文字 -->
+    <TextView
+        android:id="@+id/anim_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="105dp"
+        android:gravity="center"
+        android:text="@string/showNewFive_text"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+</RelativeLayout>
