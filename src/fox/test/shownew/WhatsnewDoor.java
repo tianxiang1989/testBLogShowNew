@@ -11,6 +11,11 @@ import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/**
+ * 主activity和动画activity在一起
+ * @author liuxiuquan
+ * 2014年6月30日
+ */
 public class WhatsnewDoor extends Activity {
 	/**上半部分图片*/
 	private ImageView mUp;
