@@ -29,7 +29,7 @@ public class WhatsnewDoor extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.login);
+		setContentView(R.layout.login_show_new);
 
 		mUp = (ImageView) findViewById(R.id.imageUp);
 		mDown = (ImageView) findViewById(R.id.imageDown);

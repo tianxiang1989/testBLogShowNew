@@ -8,5 +8,5 @@
     <string name="login_askVerify">4A验证</string>
     <string name="login_askLogin">登\t\t录</string>
     <!-- 登陆模块用到的字符串_end-->
-    <string name="showNewFive_text">微经分，为你而改变</string>
+    <string name="showNewFive_text">微经分，因你而改变</string>
 </resources>

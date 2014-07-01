@@ -2,6 +2,6 @@
 <!-- 尺寸常量 --> 
 <resources>
 <!-- 登陆模块 loading图的5个圆圈的大小 -->
-<dimen name="loading_circle_size">12dp</dimen>
+<dimen name="loading_circle_size_shownew">12dp</dimen>
 
 </resources>

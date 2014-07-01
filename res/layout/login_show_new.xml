@@ -223,7 +223,7 @@
             android:orientation="horizontal" >
 
             <ImageView
-                android:layout_width="22dp"
+                android:layout_width="24dp"
                 android:layout_height="22dp"
                 android:layout_marginRight="5dp"
                 android:background="@drawable/login_logo_bottom_left" />
@@ -243,14 +243,15 @@
                 android:textSize="13sp" />
         </LinearLayout>
     </RelativeLayout>
-    
     <!-- 上下的画布和火箭 -->
     <RelativeLayout
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#00000000"
     android:gravity="center"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+    android:id="@+id/login_shownew_layout"
+    >
 
 
     <ImageView
@@ -293,10 +294,11 @@
         	android:gravity="center" 
         	android:layout_alignParentBottom="true"
             android:layout_marginBottom="105dp"
-        	android:text=" 微经分，为你而改变"         	
-        	android:textSize="26sp"
+        	android:text="@string/showNewFive_text"        	
+        	android:textSize="23sp"
         	android:textColor="#fff" 
         />
 
 </RelativeLayout>
+    
 </FrameLayout>

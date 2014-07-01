@@ -1,10 +1,10 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="AnimFade" parent="@android:style/Animation.Activity">  
-    	<item name="android:activityOpenEnterAnimation">@anim/fade_in</item>  
-    	<item name="android:activityOpenExitAnimation">@anim/hold</item>        
-    	<item name="android:activityCloseEnterAnimation">@anim/fade_in</item>  
-    	<item name="android:activityCloseExitAnimation">@anim/fade_out</item> 
+    	<item name="android:activityOpenEnterAnimation">@anim/fade_in_shownew</item>  
+    	<item name="android:activityOpenExitAnimation">@anim/hold_shownew</item>        
+    	<item name="android:activityCloseEnterAnimation">@anim/fade_in_shownew</item>  
+    	<item name="android:activityCloseExitAnimation">@anim/fade_out_shownew</item> 
 	</style>
 	
 	<style name="Anim_style2" parent="android:Theme.NoTitleBar">         
